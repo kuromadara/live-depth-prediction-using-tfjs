@@ -1,9 +1,9 @@
 let currentStream = null;
-let currentFacingMode = 'user'; // 'user' is the front camera, 'environment' is the back camera
+let currentFacingMode = 'user'; 
 
 async function loadTFLiteModel() {
     try {
-        const modelUrl = 'midas.tflite'; // Replace with the actual URL or path to your TFLite model
+        const modelUrl = 'midas.tflite'; 
         const wasmPath = await tflite.setWasmPath('https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-tflite@0.0.1-alpha.10/wasm/');
         const model = await tflite.loadTFLiteModel(modelUrl);
         console.log('Model loaded successfully');
