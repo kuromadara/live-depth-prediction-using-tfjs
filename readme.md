@@ -36,4 +36,26 @@ We welcome contributions! Whether it's improving the UI, optimizing the model, a
 
 Unlock the potential of computer vision in your browser – try out Live Depth Prediction today!
 
-#ComputerVision #DepthEstimation #TensorFlowJS #WebML
+### 📚 Citation
+
+If you use the MiDaS model or find this project helpful, please consider citing the following paper:
+
+```
+@article{DBLP:journals/corr/abs-1907-01341,
+author    = {Katrin Lasinger and
+Ren{'{e}} Ranftl and
+Konrad Schindler and
+Vladlen Koltun},
+title     = {Towards Robust Monocular Depth Estimation: Mixing Datasets for Zero-Shot
+Cross-Dataset Transfer},
+journal   = {CoRR},
+volume    = {abs/1907.01341},
+year      = {2019},
+url       = {http://arxiv.org/abs/1907.01341},
+archivePrefix = {arXiv},
+eprint    = {1907.01341},
+timestamp = {Mon, 08 Jul 2019 14:12:33 +0200},
+biburl    = {https://dblp.org/rec/journals/corr/abs-1907-01341.bib},
+bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```
